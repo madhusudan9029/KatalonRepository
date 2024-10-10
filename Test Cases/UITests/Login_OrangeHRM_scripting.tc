@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creating the test case by scripting</description>
+   <name>Login_OrangeHRM_scripting</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>afe433c7-ee63-4837-8170-62e37fab20ad</testCaseGuid>
+</TestCaseEntity>

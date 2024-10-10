@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite,Firefox 131.0,,,11-10-2024 01:18:49,11-10-2024 01:20:09,1m - 20.051s,FAILED
+,,,,,,,
+Test Cases/UITests/Login_KatalonDemo_record,Firefox 131.0,Log in to the application using username and password,@loginTest,11-10-2024 01:18:49,11-10-2024 01:18:59,9.451s,FAILED
+"openBrowser("""")",Firefox 131.0,,,11-10-2024 01:18:51,11-10-2024 01:18:59,8.221s,FAILED
+,,,,,,,
+Test Cases/UITests/Login_OrangeHRM_manual,Firefox 131.0,Creating the UI test cases manually,,11-10-2024 01:18:59,11-10-2024 01:19:46,47.296s,PASSED
+"openBrowser("""")",Firefox 131.0,,,11-10-2024 01:18:59,11-10-2024 01:19:15,16.320s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 131.0,,,11-10-2024 01:19:16,11-10-2024 01:19:36,20.923s,PASSED
+waitForPageLoad(2),Firefox 131.0,,,11-10-2024 01:19:36,11-10-2024 01:19:37,0.886s,PASSED
+"sendKeys(findTestObject(""Page_OrangeHRM/input_Username_username"", [""variable"":""Admin""]), ""Admin"")",Firefox 131.0,,,11-10-2024 01:19:37,11-10-2024 01:19:39,1.500s,PASSED
+"sendKeys(findTestObject(""Page_OrangeHRM/input_Password_password"", [""variable"":""admin123""]), ""admin123"")",Firefox 131.0,,,11-10-2024 01:19:39,11-10-2024 01:19:39,0.516s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Firefox 131.0,,,11-10-2024 01:19:39,11-10-2024 01:19:42,2.881s,PASSED
+closeBrowser(STOP_ON_FAILURE),Firefox 131.0,,,11-10-2024 01:19:42,11-10-2024 01:19:46,3.881s,PASSED
+,,,,,,,
+Test Cases/UITests/Login_OrangeHRM_scripting,Firefox 131.0,Creating the test case by scripting,,11-10-2024 01:19:46,11-10-2024 01:20:09,22.757s,PASSED
+"openBrowser("""")",Firefox 131.0,,,11-10-2024 01:19:47,11-10-2024 01:19:57,10.264s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 131.0,,,11-10-2024 01:19:57,11-10-2024 01:20:01,3.810s,PASSED
+waitForPageLoad(2),Firefox 131.0,,,11-10-2024 01:20:01,11-10-2024 01:20:01,0.105s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 131.0,,,11-10-2024 01:20:01,11-10-2024 01:20:02,1.245s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""admin123"")",Firefox 131.0,,,11-10-2024 01:20:02,11-10-2024 01:20:02,0.348s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Firefox 131.0,,,11-10-2024 01:20:02,11-10-2024 01:20:05,2.268s,PASSED
+delay(2),Firefox 131.0,,,11-10-2024 01:20:05,11-10-2024 01:20:07,2.133s,PASSED
+closeBrowser(),Firefox 131.0,,,11-10-2024 01:20:07,11-10-2024 01:20:09,2.143s,PASSED

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Log in to the application using username and password</description>
+   <name>Login_KatalonDemo_record</name>
+   <tag>@loginTest</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>91043706-f835-4fbb-83f8-8a2ea2fbd517</testCaseGuid>
+</TestCaseEntity>

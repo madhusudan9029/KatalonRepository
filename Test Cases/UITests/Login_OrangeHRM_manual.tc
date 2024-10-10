@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creating the UI test cases manually</description>
+   <name>Login_OrangeHRM_manual</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4ffba6a-bc6f-401a-87dc-aa505982b499</testCaseGuid>
+</TestCaseEntity>
