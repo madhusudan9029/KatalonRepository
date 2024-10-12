@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>QA</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</initValue>
@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'admin123'</initValue>
+      <initValue>'admin1234'</initValue>
       <name>PASS</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

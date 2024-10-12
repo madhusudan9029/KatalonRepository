@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CallingAnotherTest</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d22a77b8-b0a1-4030-926e-ebf7cb0886ff</testCaseGuid>
+</TestCaseEntity>

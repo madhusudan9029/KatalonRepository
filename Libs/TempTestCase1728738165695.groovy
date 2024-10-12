@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\madhu\\AppData\\Local\\Temp\\Katalon\\Test Cases\\UITests\\Login_CustomKeyword\\20241011_014453\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\madhu\\AppData\\Local\\Temp\\Katalon\\Test Cases\\UITests\\DataFromExcel\\20241012_183245\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/UITests/Login_CustomKeyword', new TestCaseBinding('Test Cases/UITests/Login_CustomKeyword',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/UITests/DataFromExcel', new TestCaseBinding('Test Cases/UITests/DataFromExcel',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
