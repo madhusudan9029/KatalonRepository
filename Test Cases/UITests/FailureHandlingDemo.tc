@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To handle the failures go to -> Project -> settings -> Test Design -> Test Case</description>
+   <name>FailureHandlingDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f69f9935-664a-4393-ad03-d552dcd1a47d</testCaseGuid>
+</TestCaseEntity>
